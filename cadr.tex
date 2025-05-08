@@ -1,0 +1,134 @@
+% Created 2025-05-08 Thu 20:32
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[polish]{babel}
+\author{Michał Kamiński, \textbf{Mikołaj Szustakowski}, Nikodem Rękiewicz, Szymon Mastalerz}
+\date{\today}
+\title{CADR}
+\hypersetup{
+ pdfauthor={Michał Kamiński, \textbf{Mikołaj Szustakowski}, Nikodem Rękiewicz, Szymon Mastalerz},
+ pdftitle={CADR},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 30.1 (Org mode 9.7.27)}, 
+ pdflang={Polish}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Informacje podstawowe}
+\label{sec:orgec0de69}
+\begin{itemize}
+\item Projekt github: \url{https://github.com/orgs/CADR-PG/projects/1/views/1}
+\item Repozytorium frontend: \url{https://github.com/CADR-PG/CADR-front}
+\item Repozytorium backend: \url{https://github.com/CADR-PG/CADR-backend}
+\item Dokumentacja API: \url{https://cadr-pg.github.io/CADR-backend/}
+\item Link do aplikacji: \url{https://cadr.studio}
+\item Link do API: \url{https://cadr-api.azurewebsites.net/docs/}
+\end{itemize}
+\section{Etap 1.}
+\label{sec:org4b7a57f}
+\subsection{Frontend}
+\label{sec:org2ed95e8}
+\begin{itemize}
+\item Hierarchia obiektów - Drzewo obiektów na scenie.
+\item 3D space - Widok, na którym wyświetlane są wszystkie obiekty dodane na scenie.
+\item Podstawowa manipulacja obiektami - Możliwość zmiany pozycji, rotacji oraz skalowanie.
+\item Tworzenie podstawowych obiektów 3D - Tworzenie obiektów, które są widoczne na scenie 3D. Są to figury takie jak sześcian, kapsuła, pierścień itp.
+\item Strona główna - Stworzenie homepage z przekierowaniami do edytora oraz do formularzy rejestracji i logowania. Strona jest responsywna.
+\item Formularz rejestracji - Stworzenie strony z formularzem rejestracyjnym. Strona jest responsywna.
+\item Formularz logowania -  Stworzenie strony z formularzem logowania. Strona jest responsywna.
+\end{itemize}
+\subsection{Backend}
+\label{sec:org02c818c}
+\begin{itemize}
+\item Basic login - Endpointy do logowania i rejestracji.
+\item Setup projektu + Github CI
+\end{itemize}
+\section{Etap 2.}
+\label{sec:orgd52bb6b}
+\subsection{Frontend}
+\label{sec:org5921521}
+\begin{itemize}
+\item \sout{Import/eksport projektów.}
+\begin{itemize}
+\item Przesunięte na etap 3.
+\end{itemize}
+\item Inspektor - Szczegółowa edycja obiektów na scenie.
+\begin{itemize}
+\item W trakcie. Przesunięte częsciowo na etap 3.
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/inspector-demo.jpg}
+\end{center}
+\begin{itemize}
+\item \sout{Integracja projektów z Azurem - Przechowywanie projektów na serwerze.}
+\begin{itemize}
+\item Przesunięte na etap 3/4.
+\end{itemize}
+\item \sout{Auto save - Automatyczne zapisywanie projektu co określony interwał czasowy.}
+\begin{itemize}
+\item Przesunięte na etap 4.
+\end{itemize}
+\item Deploy na Azure - \url{https://cadr.studio/}
+\item Poprawki w UI.
+\end{itemize}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/toolbar.jpg}
+\end{center}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./img/hierarchy.jpg}
+\end{center}
+\subsection{Backend}
+\label{sec:orgd6c1898}
+\begin{itemize}
+\item \sout{Zapisywanie projektów 1/2.}
+\begin{itemize}
+\item Przesunięte na etap 3.
+\end{itemize}
+\item Deploy na Azure -  \url{https://cadr-api.azurewebsites.net/docs/}
+\item Usprawnienie refresh tokenów.
+\end{itemize}
+\section{Etap 3.}
+\label{sec:org205c4f4}
+\subsection{Frontend}
+\label{sec:orge14844b}
+\begin{itemize}
+\item Kolaboracja w czasie rzeczywistym.
+\item Okno projektowe - Umożliwa zapisanie i ładowanie tekstur, shaderów.
+\item Inspektor c.d.
+\item Import/eksport projektów.
+\end{itemize}
+\subsection{Backend}
+\label{sec:orga635970}
+\begin{itemize}
+\item Zapisywanie projektów
+\item Komunikacja websocket
+\end{itemize}
+\section{Etap 4.}
+\label{sec:orgdfb35d3}
+\subsection{Frontend}
+\label{sec:orge3ac6cc}
+\begin{itemize}
+\item Testy
+\item Funkcja automatycznego zapisywania co określony interwał czasowy
+\end{itemize}
+\subsection{Backend}
+\label{sec:org7faa25f}
+\begin{itemize}
+\item Testy end-2-end
+\end{itemize}
+\end{document}
