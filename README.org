@@ -14,53 +14,68 @@
 + Link do aplikacji: https://cadr.studio
 + Link do API: https://cadr-api.azurewebsites.net/docs/
 
-* Etap 1.
+* Etap 1;
 ** Frontend
-+ Hierarchia obiektów - Drzewo obiektów na scenie.
-+ 3D space - Widok, na którym wyświetlane są wszystkie obiekty dodane na scenie.
-+ Podstawowa manipulacja obiektami - Możliwość zmiany pozycji, rotacji oraz skalowanie.
-+ Tworzenie podstawowych obiektów 3D - Tworzenie obiektów, które są widoczne na scenie 3D. Są to figury takie jak sześcian, kapsuła, pierścień itp.
-+ Strona główna - Stworzenie homepage z przekierowaniami do edytora oraz do formularzy rejestracji i logowania. Strona jest responsywna.
-+ Formularz rejestracji - Stworzenie strony z formularzem rejestracyjnym. Strona jest responsywna.
-+ Formularz logowania -  Stworzenie strony z formularzem logowania. Strona jest responsywna.
++ Hierarchia obiektów - Drzewo obiektów na scenie;
++ 3D space - Widok, na którym wyświetlane są wszystkie obiekty dodane na scenie;
++ Podstawowa manipulacja obiektami - Możliwość zmiany pozycji, rotacji oraz skalowanie;
++ Tworzenie podstawowych obiektów 3D - Tworzenie obiektów, które są widoczne na scenie 3D. Są to figury takie jak sześcian, kapsuła, pierścień itp.;
++ Strona główna - Stworzenie homepage z przekierowaniami do edytora oraz do formularzy rejestracji i logowania. Strona jest responsywna;
++ Formularz rejestracji - Stworzenie strony z formularzem rejestracyjnym. Strona jest responsywna;
++ Formularz logowania -  Stworzenie strony z formularzem logowania. Strona jest responsywna;
 ** Backend
-+ Basic login - Endpointy do logowania i rejestracji.
-+ Setup projektu + Github CI
++ Basic login - Endpointy do logowania i rejestracji;
++ Setup projektu + Github CI;
 
 * Etap 2.
 ** Frontend
-+ +Import/eksport projektów.+
-  * Przesunięte na etap 3.
-+ Inspektor - Szczegółowa edycja obiektów na scenie.
-  * W trakcie. Przesunięte częsciowo na etap 3.
++ +Import/eksport projektów;+
+  * Przesunięte na etap 3;
++ Inspektor - Szczegółowa edycja obiektów na scenie;
+  * W trakcie. Przesunięte częsciowo na etap 3;
 [[./img/inspector-demo.jpg]]
-+ +Integracja projektów z Azurem - Przechowywanie projektów na serwerze.+
-  * Przesunięte na etap 3/4.
-+ +Auto save - Automatyczne zapisywanie projektu co określony interwał czasowy.+
-  * Przesunięte na etap 4.
-+ Deploy na Azure - https://cadr.studio/
-+ Poprawki w UI.
++ +Integracja projektów z Azurem - Przechowywanie projektów na serwerze;+
+  * Przesunięte na etap 3/4;
++ +Auto save - Automatyczne zapisywanie projektu co określony interwał czasowy;+
+  * Przesunięte na etap 4;
++ Deploy na Azure - https://cadr;studio/
++ Poprawki w UI;
 [[./img/toolbar.jpg]]
 [[./img/hierarchy.jpg]]
 ** Backend
-+ +Zapisywanie projektów 1/2.+
-  * Przesunięte na etap 3.
++ +Zapisywanie projektów 1/2;+
+  * Przesunięte na etap 3;
 + Deploy na Azure -  https://cadr-api.azurewebsites.net/docs/
-+ Usprawnienie refresh tokenów.
++ Usprawnienie refresh tokenów;
 * Etap 3.
 ** Frontend
-+ Kolaboracja w czasie rzeczywistym.
-+ Okno projektowe - Umożliwa zapisanie i ładowanie tekstur, shaderów.
-+ Inspektor c.d.
-+ Import/eksport projektów.
++ +Kolaboracja w czasie rzeczywistym;+
+  * Przesunięte jako plan na przyszłość;
++ +Okno projektowe - Umożliwa zapisanie i ładowanie tekstur, shaderów;+
+  * Przesunięte jako plan na przyszłość;
++ +Inspektor c.d;+
+  * Przesunięte na etap 4;
++ Wsparcie dla klawiatury;
++ Import/eksport projektów;
++ Import modeli 1/2;
+[[./img/model.jpg]]
++ Lepsze gizmo orientacyjne;
+[[./img/gizmo.jpg]]
++ Poprawki w UI;
 ** Backend
-+ Zapisywanie projektów
-+ Komunikacja websocket
++ Zapisywanie projektów 1/2;
++ +Komunikacja websocket;+
+  * Przesunięte jako plan na przyszłość;
 
 * Etap 4.
 ** Frontend
-+ Testy
-+ Funkcja automatycznego zapisywania co określony interwał czasowy
++ Testy;
++ Funkcja automatycznego zapisywania co określony interwał czasowy;
++ Wyświetlanie zapisanych projektów;
++ Różne typy oświetlenia;
++ Inspektor;
++ Import modeli 1/2;
 ** Backend
-+ Testy end-2-end
++ Testy end-2-end;
++ Zapisywanie projektów;
 
