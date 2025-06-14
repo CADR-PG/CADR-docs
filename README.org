@@ -69,13 +69,26 @@
 
 * Etap 4.
 ** Frontend
-+ Testy;
-+ Funkcja automatycznego zapisywania co określony interwał czasowy;
++ +Testy;+
+  * Przesunięte jako plan na przyszłość;
++ +Funkcja automatycznego zapisywania co określony interwał czasowy;+
+  * Przesunięte jako plan na przyszłość;
 + Wyświetlanie zapisanych projektów;
-+ Różne typy oświetlenia;
-+ Inspektor;
-+ Import modeli 1/2;
+  [[./img/dashboard.jpg]]
++ +Różne typy oświetlenia;+
+  * Przesunięte jako plan na przyszłość;
++ +Inspektor;+
+  * Przesunięte jako plan na przyszłość;
++ +Import modeli 1/2;+
+  * Przesunięte jako plan na przyszłość;
++ Weryfikacja maila;
+[[./img/verify.jpg]]
++ Odświeżanie tokenów dostępu;
++ Zmiana danych użytkownika;
+[[./img/change.jpg]]
++ Środowisko developerskie;
 ** Backend
 + Testy end-2-end;
 + Zapisywanie projektów;
++ Rozszerzone możliwości użytkowników;
 
